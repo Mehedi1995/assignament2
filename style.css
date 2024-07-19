@@ -4,7 +4,7 @@
 
 }
 
-section {
+.section-1 {
     background-color: rgba(17, 17, 17, 1);
 
 }
@@ -76,13 +76,13 @@ p span {
     color: hwb(245 54% 22%);
 }
 /* font in banner */
-h2 {
+.h2 {
     color: white;
     font: 5.4em sans-serif;
 }
-.gap{
+/* .gap{
     margin-top: 0;
-}
+} */
 /* banner sectioon*/
 .nav-banner {
     display: flex;
@@ -116,4 +116,40 @@ h2 {
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+/* section 2 */
+.h1-sec2 {
+    color: white;
+    text-align: center;
+}
+.p-sec2{
+    margin-top: 0%;
+    color: rgb(100, 98, 98);
+    text-align: center;
+
+}
+.h3-div{
+    color: white;
+    text-align: center;
+}
+
+
+
+.div2{
+    display: flex;
+    align-items: center;
+}
+
+.section-2{
+        margin-left: 60px;
+      
+        margin-right: 50px;   
+}
+.p-div{
+    color: rgb(100, 98, 98);
+}
+.img-div{
+    border-radius: 50%;
+    margin-left: 60px;
 }
