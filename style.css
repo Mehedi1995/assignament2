@@ -75,11 +75,13 @@ p {
 p span {
     color: hwb(245 54% 22%);
 }
+
 /* font in banner */
 .h2 {
     color: white;
     font: 5.4em sans-serif;
 }
+
 /* .gap{
     margin-top: 0;
 } */
@@ -88,7 +90,8 @@ p span {
     display: flex;
     justify-content: space-between;
 }
-.img-banner{
+
+.img-banner {
     height: 650px;
 }
 
@@ -123,33 +126,93 @@ p span {
     color: white;
     text-align: center;
 }
-.p-sec2{
+
+.p-sec2 {
     margin-top: 0%;
     color: rgb(100, 98, 98);
     text-align: center;
 
 }
-.h3-div{
+
+.h3-div {
     color: white;
     text-align: center;
 }
 
 
 
-.div2{
+.div2 {
     display: flex;
     align-items: center;
 }
 
-.section-2{
-        margin-left: 60px;
-      
-        margin-right: 50px;   
+.section-2 {
+    margin-left: 60px;
+
+    margin-right: 50px;
 }
-.p-div{
+
+.p-div {
     color: rgb(100, 98, 98);
 }
-.img-div{
+
+.img-div {
     border-radius: 50%;
     margin-left: 60px;
+}
+
+/* section 3 */
+
+/* .section-1 {
+    background-color: rgba(17, 17, 17, 1);
+
+} */
+.sec-3 {
+    margin-left: 60px;
+    margin-right: 70px;
+    background-color: rgba(17, 17, 17, 1);
+
+
+}
+
+.sec3-div2 {
+    width: 90%;
+}
+
+.h-sec3 {
+    color: white;
+    text-align: left;
+    font-size: 3em;
+}
+
+.sec-div-p {
+    color: rgb(100, 98, 98);
+}
+
+.sec3-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.div-img {
+
+    border-radius: 5%;
+}
+
+.sec-3button {
+    background-color: hwb(245 1% 85%);
+    color: white;
+    text-align: center;
+    border: 0.75px solid #024141;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* section4 */
+.grid-item1{
+    background-image: url(images/exercise1.jpg);
+    height: 323px;
+    width: 218px;
 }
