@@ -76,10 +76,15 @@ p span {
     color: hwb(245 54% 22%);
 }
 
+.sec1-p{
+    font-size: medium;
+    color: rgb(192, 188, 188);
+}
+
 /* font in banner */
 .h2 {
     color: white;
-    font: 5.4em sans-serif;
+    font: 5em sans-serif;
 }
 
 /* .gap{
@@ -92,7 +97,7 @@ p span {
 }
 
 .img-banner {
-    height: 650px;
+    height: 500px;
 }
 
 /* button */
@@ -129,8 +134,9 @@ p span {
 
 .p-sec2 {
     
-    color: rgb(100, 98, 98);
+    color: rgb(192, 188, 188);
     text-align: center;
+    font-size: medium;
 
 }
 
@@ -152,7 +158,9 @@ p span {
 }
 
 .p-div {
-    color: rgb(100, 98, 98);
+    color: rgb(192, 188, 188);
+    /* font-size: small; */
+    font-size: medium;
 }
 
 .img-div {
@@ -188,7 +196,8 @@ p span {
 }
 
 .sec-div-p {
-    color: rgb(100, 98, 98);
+    color: rgb(192, 188, 188);
+    font-size: medium;
     
 }
 
@@ -305,12 +314,14 @@ p span {
 }
 .p-sec5{
     text-align:   center;
-    font-size: small;
+    color: rgb(192, 188, 188);
+    font-size: medium;
 }
 
 .p1-sec5{
     text-align: left;
-    font-size: smaller;
+    color: rgb(192, 188, 188);
+    font-size: medium;
 }
 
 .h-div-sec5{
@@ -382,14 +393,15 @@ padding: 20px;
 }
 
 .container div p{
-    font-size: small;
+    font-size: medium;
+    color: rgb(192, 188, 188);
 }
 
 .container ul li{
   
         
         list-style: none;
-        color: rgb(121, 121, 117);
+        color: rgb(192, 188, 188);
     
     
 }
@@ -406,7 +418,12 @@ padding: 20px;
 }
 
 .footer-div1{
-    font-size: small;
+    font-size: medium;
     text-align: center;
     
+}
+
+.p-footer{
+    color: rgb(192, 188, 188);
+    font-size: medium;
 }
