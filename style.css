@@ -277,3 +277,136 @@ p span {
     width: 25%;
 }
 
+/* section 5 */
+
+.div-sec5{
+
+    background-color: rgba(17, 17, 17, 1);
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.di-sec5{
+    margin: 0px;
+}
+.div1-sec5{
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+
+
+.h1-sec5{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.p-sec5{
+    text-align:   center;
+    font-size: small;
+}
+
+.p1-sec5{
+    text-align: left;
+    font-size: smaller;
+}
+
+.h-div-sec5{
+    color: white;
+}
+
+.table-sec5{
+    color: white;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid rgb(48, 47, 47);
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+  .form-sec5{
+    display : inline-block;
+  }
+
+  .sec5-button{
+    background-color: hwb(245 1% 85%);
+    color: white;
+    text-align: center;
+    border: 0.75px solid #024141;
+  }
+
+  /* section 6 */
+  .section-6{
+    background-color: rgba(17, 17, 17, 1);
+padding: 20px;
+    margin-left: 60px;
+ margin-right:70px;
+ border-radius:5px;
+
+
+  }
+  .grid-item{
+    height: 250px;
+    width: 33%;
+   
+}
+
+.sec4-div img{
+    border-radius: 5%;
+    
+}
+
+.sec4-div  div{
+    margin: 6px;
+
+}
+
+/* section 7 */
+
+.container1{
+    background-color: rgba(17, 17, 17, 1);
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+.container{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;    
+    padding-right: 100px;
+
+}
+
+.container div p{
+    font-size: small;
+}
+
+.container ul li{
+  
+        
+        list-style: none;
+        color: rgb(121, 121, 117);
+    
+    
+}
+
+.h-footer{
+    color:hwb(245 36% 45%);
+}
+
+.footer-div{
+    border-bottom: 1px  rgb(121, 121, 117) solid ;
+    width: 100%;
+    
+    
+}
+
+.footer-div1{
+    font-size: small;
+    text-align: center;
+    
+}
