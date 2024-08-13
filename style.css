@@ -344,9 +344,13 @@ table, th, td {
 
   .sec5-button{
     background-color: hwb(245 1% 85%);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     border: 0.75px solid #024141;
+  }
+  .select-gender{
+
+    width: 15.5rem;
   }
 
   /* section 6 */
@@ -355,7 +359,7 @@ table, th, td {
 padding: 20px;
     margin-left: 60px;
  margin-right:70px;
- border-radius:5px;
+ border-radius:5px; 
 
 
   }
@@ -433,6 +437,8 @@ padding: 20px;
 @media only screen and (max-width: 576px) {
     /* For mobile phones: */
 
+    /* SECTION1 */
+
     section nav {
         margin-left: 5%;
         margin-right: 5%;
@@ -450,14 +456,15 @@ padding: 20px;
         
        
     }
+   
+
+
 
     nav ul {
         display: none;
 
     }
-    .ulli1{
-        src: url("../../../../../../");
-    }
+
     .h2 {
         color: white;
         font: 4em sans-serif;
@@ -472,6 +479,9 @@ padding: 20px;
     
         
     }
+
+     /* ENDSECTION1 */
+     /* START SECTION2  */
 
     .div2 {
         display: block;
@@ -503,6 +513,7 @@ padding: 20px;
         width: 100%;
     }
     
+    /* section4 */
     
     .sec-4{
         margin-left: 5%;
@@ -513,6 +524,7 @@ padding: 20px;
        .sec4-div{
        
            display: flex;
+           justify-content: column;
            /* grid-template-columns: auto auto auto; */
            /* grid-template-columns: repeat(3, 1fr); */
            /* gap: 0%; */
@@ -556,6 +568,10 @@ padding: 20px;
         display: none;
        }
 
+       /* endof section4 */
+
+       /* start of section5 */
+
        .div-sec5{
 
         background-color: rgba(17, 17, 17, 1);
@@ -594,10 +610,15 @@ padding: 20px;
         padding-left: 0px;
         padding-bottom: 0px;
     }
-    
-    
 
-    
+    /* endofsection5 */
 
- 
+    /* startsection6 */
+
+    .section-6{
+        display:flex;
+        justify-content: column;
+    }
+    /* endsection6 */
+    
     }
