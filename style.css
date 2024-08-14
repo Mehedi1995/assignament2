@@ -611,14 +611,29 @@ padding: 20px;
         padding-bottom: 0px;
     }
 
+    .form-sec5{
+        display: flex;
+        flex-direction: column;     
+    }
+    .select-gender{
+
+        width: 6.78rem;
+      }
+
+    .sec5-button{
+        width: 6.5rem;
+    }
+
     /* endofsection5 */
 
     /* startsection6 */
 
     .section-6{
-        display:flex;
-        justify-content: column;
+        display: flex;
+        flex-direction: column;   
+        
     }
+   
     /* endsection6 */
     
     }
